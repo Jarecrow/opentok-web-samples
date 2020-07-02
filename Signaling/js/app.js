@@ -1,10 +1,9 @@
 /* global API_KEY TOKEN SESSION_ID SAMPLE_SERVER_BASE_URL OT */
 /* eslint-disable no-alert */
 
-var apiKey;
-var session;
-var sessionId;
-var token;
+var apiKey = "46820744";
+var sessionId = "1_MX40NjgyMDc0NH5-MTU5MzY1OTg4NjcyNX5TMXpvL204N0RYcjVwRHpwQVZuRURSMkl-UH4";
+var token = "T1==cGFydG5lcl9pZD00NjgyMDc0NCZzaWc9MWRjNjliNzQ1OTlmMGQ5MGI5YzA5MWNlNDkwOTJjZjVlYzVkZjYwZTpzZXNzaW9uX2lkPTFfTVg0ME5qZ3lNRGMwTkg1LU1UVTVNelkxT1RnNE5qY3lOWDVUTVhwdkwyMDROMFJZY2pWd1JIcHdRVlp1UlVSU01rbC1VSDQmY3JlYXRlX3RpbWU9MTU5MzY1OTkwOSZub25jZT0wLjQxNjI4OTc3ODc5MTQ3MTkmcm9sZT1wdWJsaXNoZXImZXhwaXJlX3RpbWU9MTU5NDI2NDcwNSZpbml0aWFsX2xheW91dF9jbGFzc19saXN0PQ==";
 
 function initializeSession() {
   session = OT.initSession(apiKey, sessionId);
